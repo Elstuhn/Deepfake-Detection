@@ -6,8 +6,7 @@ import os
 from peekingduck.pipeline.nodes.model import yolo
 from peekingduck.pipeline.nodes.draw import bbox
 from typing import Tuple
-from AI import *
-
+from model import *
 yolo_node = yolo.Node()
 draw_node = bbox.Node()
 model = getmodel()
